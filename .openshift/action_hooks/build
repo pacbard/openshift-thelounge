@@ -1,0 +1,17 @@
+if [ ! -d $OPENSHIFT_DATA_DIR/shout ]; then
+  cd $OPENSHIFT_DATA_DIR
+  git clone https://github.com/erming/shout.git
+  cd shout
+  npm install
+fi
+
+if [ ! -d $OPENSHIFT_DATA_DIR/store ]; then
+  echo '-------------------------'
+  echo 'Creating a default user...'
+  cd $OPENSHIFT_DATA_DIR
+  mkdir store
+  mkdir store/users
+  cp $OPENSHIFT_REPO_DIR/user.json store/users/default.json
+  echo 'Please run ./shout add <username> from the repo directory to access Shout'
+  echo '-------------------------'
+fi

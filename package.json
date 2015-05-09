@@ -1,0 +1,25 @@
+{
+  "name": "OpenShift-ShoutIRC",
+  "version": "1.0.0",
+  "description": "OpenShift Shout IRC",
+  "author": {
+    "name": "Jean-Philippe Légaré <Kornagan>",
+    "email": "contact@kornagan.com",
+    "url": "http://www.kornagan.com/"
+  },
+  "scripts": {
+    "start": "./shout --private --host $OPENSHIFT_NODEJS_IP --port $OPENSHIFT_NODEJS_PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kornagan/openshift-shoutirc"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true
+}
