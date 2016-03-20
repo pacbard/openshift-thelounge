@@ -1,7 +1,7 @@
 lounge on OpenShift
 =========================
 
-lounge is a free, open, always connected web IRC client.
+[lounge](https://github.com/thelounge/lounge) is a free, open, always connected web IRC client.
 
 Running lounge on OpenShift
 --------------------
