@@ -1,7 +1,7 @@
-lounge on OpenShift
+The lounge on OpenShift
 =========================
 
-[lounge](https://github.com/thelounge/lounge) is a free, open, always connected web IRC client.
+[The lounge](https://github.com/thelounge/lounge) is a free, open, always connected web IRC client.
 
 Running lounge on OpenShift
 --------------------
@@ -10,7 +10,7 @@ The easiest way to deploy lounge on OpenShift is with the [Client Tools](https:/
 
 Start by creating a Node.js application:
 
-    rhc app create <appname> nodejs-0.10 --from-code=https://github.com/tomnx/openshift-loungeirc.git
+    rhc app create <appname> nodejs-0.10 --from-code=https://github.com/tomnx/openshift-thelounge.git
 
 Connect to your application remotely using SSH:
 
