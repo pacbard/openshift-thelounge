@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "OpenShift lounge IRC",
   "scripts": {
-    "start": "./lounge --private --host $OPENSHIFT_NODEJS_IP --port $OPENSHIFT_NODEJS_PORT"
+    "start": "./start"
   },
   "repository": {
     "type": "git",

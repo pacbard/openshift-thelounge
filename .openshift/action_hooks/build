@@ -1,8 +1,13 @@
-if [ ! -d $OPENSHIFT_DATA_DIR/lounge ]; then
-  cd $OPENSHIFT_DATA_DIR
-  git clone https://github.com/thelounge/lounge.git
-  cd lounge
-  npm install
+if ! type "lounge" > /dev/null 2>&1; then
+  echo '------------------------'
+  echo 'Installing The Lounge'
+  npm install -g thelounge
+  echo '------------------------'
+else
+  echo '------------------------'
+  echo 'Updating npm packages'
+  npm update -g
+  echo '------------------------'
 fi
 
 if [ ! -d $OPENSHIFT_DATA_DIR/store ]; then
