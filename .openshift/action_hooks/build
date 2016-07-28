@@ -2,9 +2,8 @@ if [ ! -d $OPENSHIFT_DATA_DIR/store ]; then
   echo '-------------------------'
   echo 'Creating a default user...'
   cd $OPENSHIFT_DATA_DIR
-  mkdir store
-  mkdir store/users
-  cp $OPENSHIFT_REPO_DIR/user.json store/users/default.json
+  mkdir users
+  cp $OPENSHIFT_REPO_DIR/user.json users/default.json
   echo 'Please run ./lounge add <username> from the repo directory to access lounge'
   echo '-------------------------'
 fi
