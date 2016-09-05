@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "thelounge" : "next",
-    "irc-framework" : "https://github.com/pacbard/irc-framework/archive/580b9f941f57870005375ec8d711418cab3e8493.tar.gz"
+    "irc-framework" : "https://github.com/pacbard/irc-framework/archive/2.5.0.tar.gz"
   },
   "devDependencies": {},
   "bundleDependencies": [],
