@@ -14,7 +14,7 @@
     "npm": ">= 1.0.0"
   },
   "dependencies": {
-    "thelounge" : "next",
+    "thelounge" : "2.0.1",
     "irc-framework" : "https://github.com/pacbard/irc-framework/archive/2.5.0.tar.gz"
   },
   "devDependencies": {},
