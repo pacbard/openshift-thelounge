@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "thelounge" : "2.0.1",
-    "irc-framework" : "https://github.com/pacbard/irc-framework/archive/2.5.0.tar.gz"
+    "irc-framework" : "https://github.com/kiwiirc/irc-framework/archive/7b616172ecb91be7ce7baa01887374ad8374a9a6.tar.gz"
   },
   "devDependencies": {},
   "bundleDependencies": [],
