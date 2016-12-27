@@ -14,8 +14,7 @@
     "npm": ">= 1.0.0"
   },
   "dependencies": {
-    "thelounge" : "latest",
-    "irc-framework" : "https://github.com/kiwiirc/irc-framework/archive/7b616172ecb91be7ce7baa01887374ad8374a9a6.tar.gz"
+    "thelounge" : "latest"
   },
   "devDependencies": {},
   "bundleDependencies": [],
