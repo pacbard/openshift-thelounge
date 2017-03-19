@@ -1,2 +1,2 @@
 killall -9 node
-lounge --home $OPENSHIFT_DATA_DIR --private --host $OPENSHIFT_NODEJS_IP --port $OPENSHIFT_NODEJS_PORT $*
+lounge start --home $OPENSHIFT_DATA_DIR --private --host $OPENSHIFT_NODEJS_IP --port $OPENSHIFT_NODEJS_PORT $*
